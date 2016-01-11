@@ -1,0 +1,36 @@
+
+sudo ./debug.bash #gave all succesfull pings between the demo nodes
+
+PONG=' -c2 -W1  ' # ping only 2 twice and dont wait more than 1 secs
+root@cv:~/share/sdnbgp#  docker exec $TokyoN2 ping 192.168.101.1    $PONG
+PING 192.168.101.1 (192.168.101.1) 56(84) bytes of data.
+64 bytes from 192.168.101.1: icmp_seq=1 ttl=64 time=0.047 ms
+64 bytes from 192.168.101.1: icmp_seq=2 ttl=64 time=0.071 ms
+
+--- 192.168.101.1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.047/0.059/0.071/0.012 ms
+root@cv:~/share/sdnbgp#  docker exec $TokyoN2 ping 192.168.101.2   $PONG
+PING 192.168.101.2 (192.168.101.2) 56(84) bytes of data.
+64 bytes from 192.168.101.2: icmp_seq=1 ttl=64 time=0.028 ms
+64 bytes from 192.168.101.2: icmp_seq=2 ttl=64 time=0.064 ms
+
+--- 192.168.101.2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.028/0.046/0.064/0.018 ms
+root@cv:~/share/sdnbgp#  docker exec $TokyoN2 ping 192.168.1.2  $PONG
+PING 192.168.1.2 (192.168.1.2) 56(84) bytes of data.
+64 bytes from 192.168.1.2: icmp_seq=1 ttl=62 time=0.098 ms
+64 bytes from 192.168.1.2: icmp_seq=2 ttl=62 time=0.087 ms
+
+--- 192.168.1.2 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.087/0.092/0.098/0.011 ms
+root@cv:~/share/sdnbgp#  docker exec $TokyoN2 ping 192.168.1.1   $PONG
+PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
+64 bytes from 192.168.1.1: icmp_seq=1 ttl=62 time=0.092 ms
+64 bytes from 192.168.1.1: icmp_seq=2 ttl=62 time=0.150 ms
+
+--- 192.168.1.1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.092/0.121/0.150/0.029 ms
