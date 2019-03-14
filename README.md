@@ -18,4 +18,4 @@ Cloud SDN with Containers Quagga and BGP
 
 - [x] @infchg, #infchg, [un.org](), **tbd**, <del>and</del>  
 - [x] 2014 completed docker interworking item
-- [ ] 2019 pending adds-on with GC to be completed
+- [/] 2019 pending adds-on with GC to be completed
