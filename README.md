@@ -1,4 +1,4 @@
-<style>
+<!-- style>
   @import '/opt/node_modules/bootstrap-icons/font/bootstrap-icons.css';
   .pep {color: red}
   em {color: darkblue}
@@ -7,11 +7,11 @@
    h3  {   color: darkgreen;   margin-block-start: 0pt;   font-weight: normal ; }  
    h4 > p   {   color: green; } 
   @import { url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"); }
-</style>
+</style -->
 
 # NetOps
 
-The https://github.com/infchg/NetOps list NetOps solutions, part of a Quality+CI strategy in many fronts α-ζ :
+The https://github.com/infchg/NetOps list NetOps solutions, as part of a Quality+CI strategy in many fronts α-ζ :
    	
  - ` `{.bi-people} α Facilitate, Motivate internal and external synergies, learning, cooperation (Jupyter on Github) ` `{ .bi-chat}
  - ` `{.bi-compass} Design with customers +` `{ .bi-diagram-2} architects for scalable, parallel, distributed, innovative [^in] 
@@ -20,6 +20,7 @@ The https://github.com/infchg/NetOps list NetOps solutions, part of a Quality+CI
  - ` `{.bi-github} Improve with Enterprise CI/CD + ` `{.bi-gear}  automate via APIs & virtual (Docker Kubernetes cloud)
  - ` `{.bi-kanban} Control Change & Contracts under ITIL +` `{.bi-graph-up } Agile projects (Kanban + DevOps processes)
 
+and has former sdnbgp works:
 
 
 ## SDN-BGP Examples
