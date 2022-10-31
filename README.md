@@ -1,15 +1,6 @@
-<!-- style>
-  @import '/opt/node_modules/bootstrap-icons/font/bootstrap-icons.css';
-  .pep {color: red}
-  em {color: darkblue}
-  blockquote  {  background-color: #fcf2f2;     margin-inline-start: 0pt;   margin-block-end: 0pt; } 
-   blockquote p { color: #444 ;  margin-block-end: 0pt; }   	   
-   h3  {   color: darkgreen;   margin-block-start: 0pt;   font-weight: normal ; }  
-   h4 > p   {   color: green; } 
-  @import { url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"); }
-</style -->
-
 # NetOps
+
+Agile improvements for Hybrid Network Operations (Cloud or DataCentres) 
 
 The https://github.com/infchg/NetOps list NetOps solutions, as part of a Quality+CI strategy in many fronts α-ζ :
    	
@@ -48,3 +39,16 @@ Cloud SDN with Containers Quagga and BGP
 - [x] @infchg, #infchg, [un.org](), **tbd**, <del>and</del>  
 - [x] 2014 completed docker interworking item
 - [ ] 2019 pending adds-on with GC to be completed
+
+
+
+<!-- no iba? style>
+  @import '/opt/node_modules/bootstrap-icons/font/bootstrap-icons.css';
+  .pep {color: red}
+  em {color: darkblue}
+  blockquote  {  background-color: #fcf2f2;     margin-inline-start: 0pt;   margin-block-end: 0pt; } 
+   blockquote p { color: #444 ;  margin-block-end: 0pt; }   	   
+   h3  {   color: darkgreen;   margin-block-start: 0pt;   font-weight: normal ; }  
+   h4 > p   {   color: green; } 
+  @import { url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"); }
+</style -->
