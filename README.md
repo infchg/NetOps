@@ -13,6 +13,33 @@ The https://github.com/infchg/NetOps list NetOps solutions, as part of a Quality
 
 and has former sdnbgp works:
 
+## Cloud Governance flow
+
+Client's perspective on steps to onboard a Cloud DEV:
+
+one cycle >🌐🌏 Guide  >🌡📈 ❌Measure >💡✋Engage > ✅🍀Value  >
+related to 4 ModernAgile & prince2, reusing existing Gitlab IAM & tracking
+
+```mermaid
+stateDiagram-v2     
+  ModernAgile --> Transparent\nSafe🌐infos
+  Transparent\nSafe🌐infos --> Meassure\nGaps❌🌡
+  Meassure\nGaps❌🌡 --> Engage\nPeople💡✋
+  Engage\nPeople💡✋ --> Serve✅🍀\nAdd_Value
+ 
+CLIENT_VIEW --> browseTemplatePrice🌐
+browseTemplatePrice🌐-->SelfAssessment❌  
+SelfAssessment❌  --> SelectTemplatePrice✋\n&SignSLA✋
+
+SelectTemplatePrice✋\n&SignSLA✋ --> AccessDEV🍀✅
+ 
+Provider_VIEW --> providePrice+Templates
+providePrice+Templates -->  showAssessGuide 
+showAssessGuide --> EARLYrunTemplate
+
+EARLYrunTemplate --> setCostRecover+DNS 
+```
+
 
 ## SDN-BGP Examples
 
