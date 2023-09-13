@@ -13,6 +13,10 @@ The https://github.com/infchg/NetOps list NetOps solutions, as part of a Quality
 
 and has former sdnbgp works:
 
+## Infrstructure Monitoring
+
+Added neteye vs cacti pulling of status hor HA during GA 2023
+
 ## Cloud Governance flow
 
 Client's perspective on steps to onboard a Cloud DEV:
