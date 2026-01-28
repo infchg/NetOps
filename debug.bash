@@ -1,4 +1,5 @@
 #!/bin/bash
+#% auth: CJ InfChg 2015+
 echo "THIS debug BGP logs in every quaga image !!! "
 echo "USE with care if you have hundreds of quag images !! "
 if [ "$EUID" -ne 0 ]
